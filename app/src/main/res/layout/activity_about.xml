@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/greybglb"
+    tools:context=".About">
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/roboto"
+        android:text="KELOMPOK 17"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp" />
+
+    <!-- Profil Mahasiswa 1 -->
+    <LinearLayout
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/greyarticle">
+
+        <ImageView
+            android:layout_marginRight="7dp"
+            android:id="@+id/imageView1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/profil1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/roboto"
+                android:text="Aditya Akbar Subakti"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="21120121130041"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Profil Mahasiswa 2 (sama seperti Profil 1, ubah srcCompat dan teks) -->
+    <LinearLayout
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/greyarticle"
+        >
+
+        <ImageView
+            android:layout_marginRight="7dp"
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/profil2" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:text="Muhammad Fathan Mubiina"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="21120121140164"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Profil Mahasiswa 3 (sama seperti Profil 1, ubah srcCompat dan teks) -->
+    <LinearLayout
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/greyarticle">
+
+        <ImageView
+            android:layout_marginRight="7dp"
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/profil3" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:text="Fadlil Ferdiansyah"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="21120121130073"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Profil Mahasiswa 4 (sama seperti Profil 1, ubah srcCompat dan teks) -->
+    <LinearLayout
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/greyarticle">
+
+        <ImageView
+            android:layout_marginRight="7dp"
+            android:id="@+id/imageView4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/profil4" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:text="Muhammad Fadlan Daris"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="21120121140146"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Kembali"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>
